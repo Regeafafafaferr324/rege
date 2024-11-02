@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>vRP INVENTORY HUD</title>
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"> -->
+    <script src="js/config.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/inventory.js"></script>
+</head>
+
+<body>
+    <div class="ui">
+        <div class="inventory">
+            <div id="info">
+                <div id="playerInfo">0/0KG</div>
+                <div id="otherInfo">0/0KG</div>
+            </div>
+            <div id="playerInventory" data-type="main"></div>
+            <div id="controls">
+                <div class="controls-div">
+                    <img src="https://cdn.discordapp.com/attachments/1229466557323677749/1232431786508681306/ecrom.png?ex=663746cb&is=6635f54b&hm=85d1e76024073d90fcf9c25eeb0d81a9c42b90fb6b720d4e576d886dd70d927d&" width="170" height="170">
+                    <input type="number" class="control" id="count" value="1">
+                    <div class="control" id="use">Foloseste</div>
+                    <div class="control" id="give">Ofera</div>
+                </div>
+            </div>
+            <div id="otherInventory" data-type="second"></div>
+            <div id="description"></div>
+        </div>
+    </div>
+    <div id="hotbar"></div>
+    <div id="notifications"></div>
+
+</body>
+
+
+</html>
